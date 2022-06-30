@@ -20,7 +20,7 @@ class _HomeState extends State<Home> {
     data = data.isNotEmpty ? data : ModalRoute.of(context).settings.arguments;
 
     // set background image
-    String bgImage = data['isDaytime'] ? 'day.png' : 'night.png';
+    String bgImage = data['isDaytime'] ? 'day.jpg' : 'night.jpg';
     Color bgColor = data['isDaytime'] ? Colors.blue : Colors.indigo[700];
 
     return Scaffold(
